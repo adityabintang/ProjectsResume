@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Aditya Bintang Fadila</title>
+</head>
+<body>
+	<section>
+		<nav >
+			<div class="toggle">
+				<button onclick="menu_open()" class="tombol tombol-navigasi">Menu</button>
+			</div>
+			<ul style="padding-top:20px;" id="menu-list"  >
+				 <li><a href="#aboutme">About Me</a></li>
+				 <li><a href="#education">Education</a></li>
+				 <li><a href="#experience">Experience</a></li>
+				 <!--beda bagian -->
+				 <li><a href="#certificate">Certificate</a></li>
+				 <!--beda bagian-->
+			</ul>
+		</nav>
+
+		<div class="sosmed">
+			<div class="isi-sosmed">
+				<a href="https://github.com/adityabintang" target="_blank"><img src="./gambar/github.png"> </a>
+				<a href="https://api.whatsapp.com/send?phone=6283842805378&text=Assalamualaikum:), Hai, saya Bintang" target="_blank"><img src="./gambar/wa2.png"> </a>
+				<a href="mailto:adityabintang149@gmail.com" target="_blank"><img src="./gambar/gmail.png"> </a>
+				<a href="https://www.facebook.com/adityabintang.fadila/" target="_blank"><img style="width: 38px;" src="./gambar/fb.png"></a>
+			</div>
+		</div>
+
+		<div class="banner">
+			<center>
+				<!-- Circle -->
+				<div id="circle3"></div>
+				<div id="circle2"></div>
+				<div id="circle"></div>
+				<div class="title">
+					<h1 class="name">Hai i'm Aditya Bintang!</h1>
+					<p>
+						Teknik Komputer dan Jaringan,<br/> SMK Telekomunikasi Tunas Harapan
+						and IT Network Enthusiast :)
+					</p>
+					<!-- <div class="circle-small">
+									<br/>
+									<b>V</b>
+								</div> -->
+
+				</div>
+			</center>
+		</div>
+		<div id="aboutme"></div>
+		<!-- separator dengan svg -->
+		<div class="custom-shape-divider-bottom-1604596296">
+   			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        		<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+   			 </svg>
+		</div>
+	</section>
+
+<div id="wrapper">
+	<section class="section2">
+
+		<div class="content">
+
+			<div>
+				<h1 class="title-content">About Me</h1>
+				<div class="left-menu">
+					<div class="circle-avatar"></div>
+				</div>
+
+				<div class="right-menu">
+
+					<p>
+						Hallo :)<br/>Perkenalkan nama saya Aditya Bintang Fadila seorang lulusan SMK Teknik Komputer dan jaringan
+				   	    dari SMK Telekomunikasi Tunas Harapan saya memiliki minat dibidang <i class="english">Network Computer</i>
+					    saya juga bercita-cita menjadi seorang <i class="english">Network Engineer</i> dimasa depan.
+				    </p>
+
+				    <p>
+				    	Lahir pada tangga 26 Mei 2001,<br/>
+				    	bertempat tinggal di Salatiga, Jawa Tengah, Indonesia.
+				    </p>
+
+				    <p>
+				    	Tinggal dan Lahir di Kota Salatiga, membuat saya begitu<br/>
+				    	menyukai Teknologi Informasi dan Belajar hal-hal baru,<br/>
+				    	Terlebih lagi saya meyakini bahwa dengan berkembangnya teknologi yang begitu pesat
+				    	kebutuhan akan ahli dibidangnya akan sangat dibutuhkan di masa depan.<br/>
+				    </p>
+
+				    
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section3" id="education">
+
+		<div class="content content-float">
+			<h1 class="title-content">Education</h1>
+			<div class="area-card">
+				<div class="card">
+					<div class="card-header" style="background:url(./gambar/sd.jpg); 
+					     background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color:#fff">
+							<b>SDN MANGUNSARI 01 Salatiga</b>
+							<br/>
+							<i>2009-2014</i>
+						</p>
+						<a href="#modal-sd" class="tombol tombol-link">Detail</a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" style="background: url(./gambar/smp.jpg);
+						 background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color: #fff">
+							<b>SMPN 06 Salatiga</b>
+							<br/>
+							<i>2014-2017</i>
+						</p>
+						<a href="#modal-smp" class="tombol tombol-link">Detail</a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" style="background: url(./gambar/smk.jpg);
+						 background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color: #fff">
+							<b>SMK Telekomunikasi<br/>Tunas Harapan</b>
+							<br/>
+							<i>2017-2020</i>
+						</p>
+						<a href="#modal-sma" class="tombol tombol-link">Detail</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<svg  id="curve2"
+						 viewBox="0 0 1400 214.953"
+					 xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z"/>
+				</svg>
+
+	</section>
+
+	<section class="section4" id="experience">
+		<div class="content">
+			<h1 class="title-content" style="padding-bottom: 15px;">Experience</h1>
+
+			<p>
+				<ul class="text-experience">
+					<li>
+
+						<h3>IT Network & Hardware  <label class="label label-utama">Oktober 2018 - Januari 2019</label></h3>
+						<div class="text">
+							Prakter kerja Lapangan dan menjadi bagian dari <i>IT Network & Hardware</i>  yang bertugas memaintance Hardware & Software.<br/>
+							Selain itu, saya banyak belajar mengenai materi-materi <i>CCNA</i>, dan <i>Bandwidth Manangement</i>dari perangkat Mikrotik.
+						</div>
+
+					</li>
+					<li>
+						<h3>OSIS SMK Telekomunikasi Tunas Harapan  <label class="label label-info">2017</label></h3>
+						<div class="text">
+							Masuk ke dalam anggota OSIS sebagai Seksi IT selama 1 tahun. 
+							</br>Dimana Proker yang berhasil saya lakukan daripada penjabat sebelumnya,</br>kala itu menyelenggarakan lomba berkaitan dengan IT se-sekolah yang sebelumnya belum terlaksana.
+						</div>
+					</li>
+					<li>
+						<h3>IT Infrastruktur  <label class="label label-info">April 2019 - Juni 2019</label>
+						</h3>
+						<div class="text">
+							Menjadi IT Infrastruktur dalam proses magang mendapat pengalaman memasang <i>Access Point</i> di tempat tinggi, </br>dan mendapat pengalaman untuk membuat  <i>NMS(LibreNMS)</i>
+							</br>
+						</div>
+					</li>
+
+				</ul>
+
+			</p>
+
+		</div>
+	</section>
+
+<!-- beda bagian -->
+	<section class="section5" id="certificate">
+
+		<div class="content content-float">
+			<h1 class="title-content">Certificate</h1>
+			<div class="area-card">
+				<div class="card">
+					<div class="card-header" style="background:url(./gambar/Dicoding1.png); 
+					     background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color:#fff">
+							<b>Belajar Pyhton</b>
+							<br/>
+							<i>Oktober 2020</i>
+						</p>
+					<center><a style="color: #fff">Sebagai syarat untuk lanjut<br/>kedalam modul Machine Learning.</a></center>	
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" style="background: url(./gambar/Dicoding2.png);
+						 background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color: #fff">
+							<b>Belajar Visualisasi Data</b>
+							<br/>
+							<i>Oktober 2020</i>
+						</p>
+						<center><a style="color: #fff">Sebagai syarat untuk masuk<br/>kedalam modul Python</a></center>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" style="background: url(./gambar/HTML.png);
+						 background-size: cover;">
+					</div>
+					<div class="card-body">
+						<p style="color: #fff">
+							<b>Progate Belajar<br/>HTML&CSS</b>
+							<br/>
+							<i>Oktober 2020</i>
+						</p>
+						<center><a style="color: #fff">Modul HTML&CSS syarat<br/>kelulusan Beasiswa</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</section>
+	<!-- Beda bagaian -->
+
+	<div>
+		<div class="detail" id="modal-sd">
+			<div class="detail-sekolah">
+				<div class="header-detail">
+					<h3>SDN MANGUNSARI 01 Salatiga</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Saya bersekolah di SDN MANGUNSARI 01 selama 3 tahun dari tahun 2009 hingga 2014.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-smp">
+			<div class="detail-sekolah">
+				<div class="header-detail">
+					<h3>SMPN 06 Salatiga</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Saya bersekolah di SMPN 06 Salatiga dari tahun 2014 hingga 2017.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-sma">
+			<div class="detail-sekolah">
+				<div class="header-detail">
+					<h3>SMK Telekomunikasi</br>Tunas Harapan</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+					<p>
+						Saya bersekolah di SMK Telekmunikasi Tunas Harapan dari tahun 2017 hingga 2020.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			function menu_open() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " tampilkan";
+				tombol_navigasi.setAttribute('onclick', 'menu_close()');
+			}
+
+			function menu_close() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " hidden";
+				tombol_navigasi.setAttribute('onclick', 'menu_open()');
+			}
+		</script>
+	</div>
+
+</div>
+
+</body>
+</html>
